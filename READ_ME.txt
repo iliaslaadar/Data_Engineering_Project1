@@ -9,7 +9,7 @@ Dockerhub Link: https://hub.docker.com/repository/registry-1.docker.io/iliasldr/
 To run the image, you need to execute the following commands:
 
 
-- Pull the image: docker pull iliasldr/data_engineering:latest
+- Pull the image: docker pull iliasldr/data_engineering:Final_Version
 
 - Run the image: docker run -p 5000:5000 5fd37ba1f67c
 
