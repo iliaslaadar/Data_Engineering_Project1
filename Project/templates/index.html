@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <center><h1><font>Sentiment analysis</font></h1></center>
+
+        <hr />
+            <form method="POST" action="">
+                <center>
+
+                    <label>Enter a text to analyse :</label>
+
+                    <br><br>
+
+                    <div>
+                        <textarea type="text"  name="text"  cols="100" rows="20" ></textarea>
+                        <input type="hidden" name="form_type" value="analyse"/>
+                    </div>
+
+                    <input type="submit"/>
+
+                </center>
+
+                <center>
+                    <p>
+                        <div style="font-weight:bold;">
+                            The text is
+                            <span style="color:red;">{{prediction}}</span> : <br><br>
+                        </div>
+                        {{text}}
+                    </p>
+                </center>
+            </form>
+        <hr />
+        
+        <br>
+        
+        <div>Data engineering project - Mohamed ABDELAZIZ / Ilias LAADAR</div>
+
+    </body>
+</html>
